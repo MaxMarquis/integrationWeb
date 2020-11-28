@@ -1,0 +1,36 @@
+@font-face {
+  font-family: maPoliceCactus;
+  src: url("../fonts/CactusStory.ttf");
+}
+@font-face {
+  font-family: maPoliceCodePro;
+  src: url(../fonts/SourceCodePro-Regular.ttf);
+}
+#section1 {
+  background-color: indigo;
+}
+#section2 {
+  background-color: lawngreen;
+}
+#section3 {
+  background-color: orangered;
+}
+.belleImage {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 20rem;
+}
+.belleImage:hover {
+  box-shadow: 0 0 10px rgb(2, 192, 255); /*j'ai édit ton shadow parce qu'on ne le voyait pas vraiment*/
+  /*box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);*/
+}
+.titreH1 {
+  color: #ffd300;
+  font-size: 3rem;
+  font-family: maPoliceCactus;
+}
+.titreH2 {
+  color: darkgreen;
+  font-size: 2.5rem;
+  font-family: maPoliceCodePro;
+}
