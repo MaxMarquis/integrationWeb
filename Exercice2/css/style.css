@@ -1,9 +1,55 @@
-/*
-px
-em
-pt
-*/
-body{
-    background-color: gray;
-    
+/* px -> em -> pt */
+body {
+  width: 900px;
+  margin: auto;
+  background-image: url("../media/hourglass.jpg");
+  background-repeat: no-repeat;
+  background-color: black;
+}
+
+h1 {
+  font-size: 36px;
+  color: white;
+}
+
+h2 {
+  font-size: 24px;
+  color: white;
+}
+
+h1,
+h2 {
+  color: green;
+  text-align: center;
+}
+
+p {
+  text-align: justify;
+  font-size: 14px;
+  color: wheat;
+}
+
+a {
+  color: skyblue;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  font-size: 36px;
+}
+
+a:visited {
+  color: darkblue;
+}
+
+img {
+  width: 300px;
+  border-radius: 1em;
+  display: block;
+  margin: auto;
+}
+
+img:hover {
+  box-shadow: -5px 5px 5px black;
 }
