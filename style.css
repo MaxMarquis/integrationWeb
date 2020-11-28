@@ -1,0 +1,25 @@
+body {
+  background-image: url("/Exercice3/media/10\ -\ October\ 2020\ \(myphotopack.com\).jpg");
+}
+#title {
+  margin: auto;
+  text-align: center;
+  width: 45rem;
+  font-size: 5rem;
+  background-color: rgba(128, 128, 128, 0.87);
+  border-radius: 45%;
+}
+
+nav {
+  background-color: black;
+  width: 20rem;
+}
+nav ul li {
+  font-size: 3rem;
+  color: antiquewhite;
+  list-style-type: none;
+}
+nav ul li a {
+  font-size: 3rem;
+  text-decoration: none;
+}
