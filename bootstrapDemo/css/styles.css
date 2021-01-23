@@ -1,13 +1,14 @@
 hr {
     margin: 30px auto;
+    height: 5px;
     max-width: 50px;
     border-width: 3px;
-    color: #f05f40;
+    border-color: black;
 }
 
 .banniere {
     background-image: url(../src/pexels-viktoria-alipatova-2074130.jpg);
-    height: 35em;
+    height: 40em;
     background-size: cover;
     max-height: max-content;
 }
@@ -26,13 +27,9 @@ hr {
 
 .texte {
     background-color: rgb(202, 140, 26);
-    height: 10em;
+    height: 20em;
 }
 
 .images {
     padding: 0px;
-}
-.vert {
-    background-color: green;
-    height: 10em;
 }
