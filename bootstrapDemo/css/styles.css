@@ -1,35 +1,43 @@
-hr {
-    margin: 30px auto;
-    height: 5px;
-    max-width: 50px;
-    border-width: 3px;
-    border-color: black;
-}
-
 .banniere {
     background-image: url(../src/pexels-viktoria-alipatova-2074130.jpg);
     height: 40em;
     background-size: cover;
-    max-height: max-content;
 }
 
+body .monHr {
+    margin: 30px auto;
+    max-width: 50px;
+    border-width: 3px;
+    border-color: #f05f40;
+    border-style: solid;
+    opacity: 1;
+}
 .banniere h1 {
-    width: 45%;
+    width: 50%;
     color: black;
-    margin: auto;
 }
 
 .banniere p {
-    width: 45%;
+    width: 50%;
     color: wheat;
-    margin: auto;
 }
 
-.texte {
+#boutonOrange {
+    border-radius: 2em;
+    padding: 0.5em 2em;
+    background-color: chocolate;
+}
+
+.boxOrange {
     background-color: rgb(202, 140, 26);
     height: 20em;
 }
 
 .images {
     padding: 0px;
+}
+#boutonBlanc {
+    background-color: white;
+    border-radius: 2em;
+    padding: 0.5em 2em;
 }
