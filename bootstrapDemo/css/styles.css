@@ -41,3 +41,13 @@ body .monHr {
     border-radius: 2em;
     padding: 0.5em 2em;
 }
+
+.cIcones {
+    margin: 5em auto;
+}
+.cIcones i {
+    margin-bottom: 15px;
+}
+a {
+    color: black;
+}
