@@ -1,6 +1,6 @@
 .banniere {
     background-image: url(../src/pexels-viktoria-alipatova-2074130.jpg);
-    height: 40em;
+    padding: 10%;
     background-size: cover;
 }
 
@@ -13,13 +13,13 @@ body .monHr {
     opacity: 1;
 }
 .banniere h1 {
-    width: 50%;
-    color: black;
+    color: rgb(255, 255, 255);
+    font-size: 5rem;
 }
 
 .banniere p {
-    width: 50%;
-    color: wheat;
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
 }
 
 #boutonOrange {
@@ -29,25 +29,24 @@ body .monHr {
 }
 
 .boxOrange {
-    background-color: rgb(202, 140, 26);
-    height: 20em;
+    background-color: #f05f40;
+    padding: 5%;
 }
 
-.images {
-    padding: 0px;
+.boxOrange hr {
+    border-color: white;
 }
 #boutonBlanc {
     background-color: white;
     border-radius: 2em;
     padding: 0.5em 2em;
 }
-
-.cIcones {
-    margin: 5em auto;
-}
-.cIcones i {
-    margin-bottom: 15px;
+i {
+    margin-bottom: 1rem;
+    color: #f05f40;
+    font-size: 3rem;
 }
 a {
     color: black;
+    text-decoration: none;
 }
