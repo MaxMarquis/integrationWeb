@@ -1,0 +1,81 @@
+h1 {
+    font-size: 3em;
+    font-weight: 700;
+}
+h2 {
+    font-weight: 700;
+}
+.zone1 {
+    background-image: url("../medias/Photo-paralax-dec-bac-informatique-02-1.jpg");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media screen and (max-width: 576px) {
+    .zone1 {
+        background-image: url("../medias/Informatique-laboratoire.jpg");
+    }
+    .zone2 {
+        display: none;
+    }
+
+    .zone3 {
+        text-align: center;
+    }
+
+    #carre2 {
+        display: none;
+    }
+}
+.zone3 {
+    background-image: url("../medias/Informatique-programmation.jpg");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 12em;
+}
+.zone4 {
+    background-image: url("../medias/Informatique-serveur.jpg");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 12em;
+}
+#zoneJaune {
+    background-color: #fcb824cf;
+    margin-top: 30em;
+    margin-bottom: 1.5em;
+}
+.fondGris {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+#titreTechniques {
+    font-size: 3em;
+    padding: 0.2em;
+}
+.btn-warning {
+    background-color: #e84819;
+    color: white;
+}
+.blueBox {
+    background-color: #2bbdb9;
+    color: white;
+}
+
+#carre1 {
+    background-color: #fcb824;
+}
+#carre2 {
+    background-color: #2bbdb9;
+}
+#carre3 {
+    background-color: #c8b784;
+}
