@@ -1,5 +1,4 @@
 h1 {
-    font-size: 3em;
     font-weight: 700;
 }
 h2 {
@@ -13,22 +12,6 @@ h2 {
     background-repeat: no-repeat;
     background-size: cover;
 }
-@media screen and (max-width: 576px) {
-    .zone1 {
-        background-image: url("../medias/Informatique-laboratoire.jpg");
-    }
-    .zone2 {
-        display: none;
-    }
-
-    .zone3 {
-        text-align: center;
-    }
-
-    #carre2 {
-        display: none;
-    }
-}
 .zone3 {
     background-image: url("../medias/Informatique-programmation.jpg");
     height: 100%;
@@ -39,6 +22,7 @@ h2 {
     color: white;
     padding: 12em;
 }
+
 .zone4 {
     background-image: url("../medias/Informatique-serveur.jpg");
     height: 100%;
@@ -78,4 +62,21 @@ h2 {
 }
 #carre3 {
     background-color: #c8b784;
+}
+
+@media screen and (max-width: 576px) {
+    .zone1 {
+        background-image: url("../medias/Informatique-laboratoire.jpg");
+    }
+    .zone2,
+    #carre2 {
+        display: none;
+    }
+    .zone3,
+    .zone4 {
+        padding: 1em;
+    }
+    h1 {
+        font-weight: 600;
+    }
 }
