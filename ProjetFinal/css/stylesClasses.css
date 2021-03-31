@@ -1,0 +1,32 @@
+body {
+    background-color: #151b0f;
+    background-image: url("../medias/images/classes.jpg");
+    background-repeat: no-repeat;
+}
+#classesSection1 {
+    padding-top: 12em;
+}
+#firstContainer h1 {
+    color: white;
+    font-size: 4.3rem;
+    text-align: center;
+}
+#firstContainer p {
+    color: #ebdec2;
+    font-size: 1.44rem;
+    text-align: center;
+}
+.spacer {
+    background-color: #211510;
+    text-align: center;
+    color: white;
+    padding: 0.3em;
+    margin-top: 0.5em;
+}
+.card {
+    background-color: #211510;
+    color: white;
+}
+#rouge {
+    background-color: red;
+}

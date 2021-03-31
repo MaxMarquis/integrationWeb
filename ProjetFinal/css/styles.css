@@ -1,0 +1,30 @@
+#myNavbar {
+    background-color: #211510;
+    position: absolute;
+    width: 75%;
+    margin-left: 14.5em;
+    border-radius: 1rem;
+}
+#banniere {
+    background-image: url("../medias/images/ragnaros.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 900px;
+}
+#section2 {
+    background-image: url("../medias/images/Z69HID4AX12Z1565217144858.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 900px;
+}
+#section3 {
+    background-image: url("../medias/images/DBTWQDK3WSU01615485387498.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 900px;
+}
+.carousel-indicators li {
+    width: 0.7em;
+    height: 0.7em;
+    border-radius: 100%;
+}
