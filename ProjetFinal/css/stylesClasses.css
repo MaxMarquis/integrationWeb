@@ -1,10 +1,14 @@
 body {
     background-color: #151b0f;
     background-image: url("../medias/images/classes.jpg");
+    background-attachment: fixed;
+    background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
 }
 #classesSection1 {
     padding-top: 12em;
+    padding-bottom: 12em;
 }
 #firstContainer h1 {
     color: white;
