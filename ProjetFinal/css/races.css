@@ -1,0 +1,73 @@
+#racesSection1 {
+    background-image: url(../medias/images/races/citoyensAzeroth.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 12em;
+    padding-bottom: 12em;
+}
+h1 {
+    color: white;
+    font-size: 4.3rem;
+    text-align: center;
+}
+h3 {
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+}
+.imgRacesAlliance {
+    border: 1px solid #0078ff;
+    position: relative;
+    background-image: url(../medias/images/races/backgroundRaces.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.imgRacesHorde {
+    border: 1px solid #b30000;
+    position: relative;
+    background-image: url(../medias/images/races/backgroundRaces.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.racesPara {
+    color: #f8b700;
+    font-weight: 700;
+}
+
+#alliance {
+    background-image: url(../medias/images/races/alliance.jpg);
+    text-align: center;
+    padding-bottom: 8rem;
+}
+#logoAlliance {
+    background-image: url(../medias/images/races/Logo-alliance.png);
+    width: 4rem;
+    height: 5rem;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: inline-block;
+    position: relative;
+    bottom: 2em;
+}
+#horde {
+    background-image: url(../medias/images/races/horde.jpg);
+    text-align: center;
+    padding-bottom: 8rem;
+}
+#logoHorde {
+    background-image: url(../medias/images/races/Logo-horde.png);
+    width: 4rem;
+    height: 5rem;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: inline-block;
+    position: relative;
+    bottom: 2em;
+}

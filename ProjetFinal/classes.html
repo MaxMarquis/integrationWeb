@@ -19,7 +19,7 @@
         <nav id="myNavbar" class="navbar navbar-dark navbar-expand">
             <div class="container">
                 <a class="navbar-brand" href="index.html"><img
-                        src="/medias/images/Logo-wow-sitenav.596840db77b4d485a44d65e897e3de57.png" alt="logo"
+                        src="medias/images/Logo-wow-sitenav.596840db77b4d485a44d65e897e3de57.png" alt="logo"
                         width="50%"></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse"
                     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -34,21 +34,57 @@
                         <li class="nav-item active">
                             <a class="nav-link" href="classes.html">Classes</a>
                         </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Vps / Dédié
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="#">Serveurs Privés Virtuels</a>
-                                <a class="dropdown-item" href="#">Serveurs dédiés</a>
-                            </div>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="races.html">Races</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
+    <!-- Modal -->
+    <div class="modal fade" id="modalNews" tabindex="-1" role="dialog" aria-labelledby="modalNews" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalNews">Actualités World Of Warcraft Classic</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div id="carouselBurningCrusade" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <a href="https://worldofwarcraft.com/fr-fr/news/23652343/la-b%C3%AAta-de-burning-crusade-classic-a-commenc%C3%A9"
+                                    target="_blank" rel="noopener noreferrer"><img class="d-block w-100"
+                                        src="medias/images/beta_tbc.png" alt="beta burning crusade classic"></a>
+                                <h2>La bêta de Burning Crusade Classic a commencé !</h2>
+                            </div>
+                            <div class="carousel-item ">
+                                <img class="d-block w-100" src="medias/images/burningCrusadeTrailer.jpg"
+                                    alt="Trailer sortie burning crusade classic">
+                                <a href="https://youtu.be/y9RZ9GcADKg">Bande-annonce de Burning Crusade</a>
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="medias/images/burningCrusade.jpeg" alt="Illidan">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="medias/images/loginScreen.jpg" alt="Login screen">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- Bannière  -->
     <section id="classesSection1">
         <div class="container">
@@ -68,7 +104,7 @@
             <div class="row">
                 <div class="col-4">
                     <div class="card mt-4" style="width: 18rem;">
-                        <img class="card-img-top" src="medias/images/guerrier.jpg" alt="Image classe guerrier">
+                        <img class="card-img-top" src="medias/images/classes/guerrier.jpg" alt="Image classe guerrier">
                         <div class="card-body">
                             <h5 class="card-title">Guerrier</h5>
                             <p class="card-text">Depuis que la guerre fait rage, des héros de toutes races ont cherché à
@@ -82,7 +118,7 @@
                 </div>
                 <div class="col-4">
                     <div class="card  mt-4" style="width: 18rem;">
-                        <img class="card-img-top" src="medias/images/paladin.jpg" alt="Image classe paladin">
+                        <img class="card-img-top" src="medias/images/classes/paladin.jpg" alt="Image classe paladin">
                         <div class="card-body">
                             <h5 class="card-title">Paladin</h5>
                             <p class="card-text">Le paladin observe fidèlement ces règles : protéger le faible, faire
@@ -97,7 +133,7 @@
                 </div>
                 <div class="col-4">
                     <div class="card  mt-4" style="width: 18rem;">
-                        <img class="card-img-top" src="medias/images/druide.jpg" alt="Image classe druide">
+                        <img class="card-img-top" src="medias/images/classes/druide.jpg" alt="Image classe druide">
                         <div class="card-body">
                             <h5 class="card-title">Druide</h5>
                             <p class="card-text">Les druides font appel aux vastes pouvoirs de la nature pour préserver
@@ -116,9 +152,9 @@
         <h1 class="spacer">Soigneur</h1>
         <div class="container">
             <div class="row">
-                <div class="col-4">
+                <div class="offset-2 col-4">
                     <div class="card  mt-4" style="width: 18rem;">
-                        <img class="card-img-top" src="medias/images/pretre.jpg" alt="Image classe prêtre">
+                        <img class="card-img-top" src="medias/images/classes/pretre.jpg" alt="Image classe prêtre">
                         <div class="card-body">
                             <h5 class="card-title">Prêtre</h5>
                             <p class="card-text">C’est au spirituel que les prêtres ont consacré leur vie et c’est en
@@ -129,21 +165,23 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-4">
-                    <div class="card  mt-4" style="width: 18rem;">
-                        <img class="card-img-top" src="medias/images/chaman.jpg" alt="Image classe chaman">
+                <div class="col-5">
+                    <div class="card mt-4" style="width: 18rem;">
+                        <img class="card-img-top" src="medias/images/classes/druide.jpg" alt="Image classe druide">
                         <div class="card-body">
-                            <h5 class="card-title">Chaman</h5>
-                            <p class="card-text">Les chamans sont des guides spirituels qui font appel à des puissances
-                                non pas divines mais élémentaires. Ce mysticisme particulier amène le chaman à communier
-                                avec des forces qui ne sont pas toujours bienveillantes.
-                            </p>
+                            <h5 class="card-title">Druide</h5>
+                            <p class="card-text">Les druides font appel aux vastes pouvoirs de la nature pour préserver
+                                son équilibre et protéger la vie. Avec de l’expérience, les druides peuvent déchaîner
+                                les énergies brutes de la nature contre leurs ennemis et faire s’abattre à distance sur
+                                eux la fureur des cieux, les immobiliser avec des sarments enchantés ou les piéger dans
+                                des cyclones sans fin.</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-4">
+
+                <div class="offset-2 col-4">
                     <div class="card  mt-4" style="width: 18rem;">
-                        <img class="card-img-top" src="medias/images/paladin.jpg" alt="Image classe paladin">
+                        <img class="card-img-top" src="medias/images/classes/paladin.jpg" alt="Image classe paladin">
                         <div class="card-body">
                             <h5 class="card-title">Paladin</h5>
                             <p class="card-text">Le paladin observe fidèlement ces règles : protéger le faible, faire
@@ -157,15 +195,14 @@
                     </div>
                 </div>
                 <div class="col-4">
-                    <div class="card mt-4" style="width: 18rem;">
-                        <img class="card-img-top" src="medias/images/druide.jpg" alt="Image classe druide">
+                    <div class="card  mt-4" style="width: 18rem;">
+                        <img class="card-img-top" src="medias/images/classes/chaman.jpg" alt="Image classe chaman">
                         <div class="card-body">
-                            <h5 class="card-title">Druide</h5>
-                            <p class="card-text">Les druides font appel aux vastes pouvoirs de la nature pour préserver
-                                son équilibre et protéger la vie. Avec de l’expérience, les druides peuvent déchaîner
-                                les énergies brutes de la nature contre leurs ennemis et faire s’abattre à distance sur
-                                eux la fureur des cieux, les immobiliser avec des sarments enchantés ou les piéger dans
-                                des cyclones sans fin.</p>
+                            <h5 class="card-title">Chaman</h5>
+                            <p class="card-text">Les chamans sont des guides spirituels qui font appel à des puissances
+                                non pas divines mais élémentaires. Ce mysticisme particulier amène le chaman à communier
+                                avec des forces qui ne sont pas toujours bienveillantes.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -178,7 +215,7 @@
             <div class="row">
                 <div class="col-4">
                     <div class="card  mt-4" style="width: 18rem;">
-                        <img class="card-img-top" src="medias/images/guerrier.jpg" alt="Image classe guerrier">
+                        <img class="card-img-top" src="medias/images/classes/guerrier.jpg" alt="Image classe guerrier">
                         <div class="card-body">
                             <h5 class="card-title">Guerrier</h5>
                             <p class="card-text">Depuis que la guerre fait rage, des héros de toutes races ont cherché à
@@ -192,7 +229,7 @@
                 </div>
                 <div class="col-4">
                     <div class="card  mt-4" style="width: 18rem;">
-                        <img class="card-img-top" src="medias/images/chasseur.jpg" alt="Image classe chasseur">
+                        <img class="card-img-top" src="medias/images/classes/chasseur.jpg" alt="Image classe chasseur">
                         <div class="card-body">
                             <h5 class="card-title">Chasseur</h5>
                             <p class="card-text">L’appel de la nature tire dès leur plus jeune âge certains aventuriers
@@ -203,7 +240,7 @@
                 </div>
                 <div class="col-4">
                     <div class="card  mt-4" style="width: 18rem;">
-                        <img class="card-img-top" src="medias/images/paladin.jpg" alt="Image classe paladin">
+                        <img class="card-img-top" src="medias/images/classes/paladin.jpg" alt="Image classe paladin">
                         <div class="card-body">
                             <h5 class="card-title">Paladin</h5>
                             <p class="card-text">Le paladin observe fidèlement ces règles : protéger le faible, faire
@@ -218,7 +255,7 @@
                 </div>
                 <div class="col-4">
                     <div class="card  mt-4" style="width: 18rem;">
-                        <img class="card-img-top" src="medias/images/mage.jpg" alt="Image classe mage">
+                        <img class="card-img-top" src="medias/images/classes/mage.jpg" alt="Image classe mage">
                         <div class="card-body">
                             <h5 class="card-title">Mage</h5>
                             <p class="card-text">Les étudiants les plus intelligents et les plus disciplinés peuvent
@@ -231,7 +268,7 @@
                 </div>
                 <div class="col-4">
                     <div class="card  mt-4" style="width: 18rem;">
-                        <img class="card-img-top" src="medias/images/voleur.jpg" alt="Image classe voleur">
+                        <img class="card-img-top" src="medias/images/classes/voleur.jpg" alt="Image classe voleur">
                         <div class="card-body">
                             <h5 class="card-title">Voleur</h5>
                             <p class="card-text">Un seul code pour les voleurs : remplir le contrat. Ces mercenaires
@@ -244,7 +281,8 @@
                 </div>
                 <div class="col-4">
                     <div class="card  mt-4" style="width: 18rem;">
-                        <img class="card-img-top" src="medias/images/demoniste.jpg" alt="Image classe demoniste">
+                        <img class="card-img-top" src="medias/images/classes/demoniste.jpg"
+                            alt="Image classe demoniste">
                         <div class="card-body">
                             <h5 class="card-title">Démoniste</h5>
                             <p class="card-text">Face aux pouvoirs démoniaques, la plupart des héros ne voient que la
@@ -257,7 +295,7 @@
                 </div>
                 <div class="col-4">
                     <div class="card  mt-4" style="width: 18rem;">
-                        <img class="card-img-top" src="medias/images/druide.jpg" alt="Image classe druide">
+                        <img class="card-img-top" src="medias/images/classes/druide.jpg" alt="Image classe druide">
                         <div class="card-body">
                             <h5 class="card-title">Druide</h5>
                             <p class="card-text">Les druides font appel aux vastes pouvoirs de la nature pour préserver
@@ -270,7 +308,7 @@
                 </div>
                 <div class="col-4">
                     <div class="card  mt-4" style="width: 18rem;">
-                        <img class="card-img-top" src="medias/images/pretre.jpg" alt="Image classe prêtre">
+                        <img class="card-img-top" src="medias/images/classes/pretre.jpg" alt="Image classe prêtre">
                         <div class="card-body">
                             <h5 class="card-title">Prêtre</h5>
                             <p class="card-text">C’est au spirituel que les prêtres ont consacré leur vie et c’est en
@@ -283,7 +321,7 @@
                 </div>
                 <div class="col-4">
                     <div class="card  mt-4" style="width: 18rem;">
-                        <img class="card-img-top" src="medias/images/chaman.jpg" alt="Image classe chaman">
+                        <img class="card-img-top" src="medias/images/classes/chaman.jpg" alt="Image classe chaman">
                         <div class="card-body">
                             <h5 class="card-title">Chaman</h5>
                             <p class="card-text">Les chamans sont des guides spirituels qui font appel à des puissances
