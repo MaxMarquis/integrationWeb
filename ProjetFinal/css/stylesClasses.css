@@ -7,8 +7,8 @@ body {
     background-size: cover;
 }
 #classesSection1 {
-    padding-top: 12em;
-    padding-bottom: 12em;
+    padding-top: 8em;
+    padding-bottom: 8em;
 }
 #firstContainer h1 {
     color: white;
@@ -30,7 +30,34 @@ body {
 .card {
     background-color: #211510;
     color: white;
+    width: 18rem;
 }
 #rouge {
     background-color: red;
+}
+@media screen and (max-width: 768px) {
+    .card {
+        width: 20rem;
+    }
+    #sectionHeal,
+    #sectionDps {
+        margin-top: 8rem;
+    }
+    #firstContainer h1 {
+        font-size: 4.3rem;
+    }
+}
+@media screen and (max-width: 411px) {
+    #firstContainer h1 {
+        font-size: 3.5rem;
+    }
+    #firstContainer p {
+        font-size: 1.1rem;
+    }
+    .card {
+        width: 16rem;
+    }
+    #classesSection1 {
+        padding-bottom: 8rem;
+    }
 }

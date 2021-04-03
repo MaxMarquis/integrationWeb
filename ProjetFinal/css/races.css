@@ -4,8 +4,8 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding-top: 12em;
-    padding-bottom: 12em;
+    padding-top: 8em;
+    padding-bottom: 8em;
 }
 h1 {
     color: white;
@@ -35,12 +35,10 @@ h3 {
     height: 100%;
     overflow: hidden;
 }
-
 .racesPara {
     color: #f8b700;
     font-weight: 700;
 }
-
 #alliance {
     background-image: url(../medias/images/races/alliance.jpg);
     text-align: center;
@@ -70,4 +68,27 @@ h3 {
     display: inline-block;
     position: relative;
     bottom: 2em;
+}
+@media screen and (max-width: 768px) {
+    #racesSection1 h1 {
+        font-size: 4.3rem;
+    }
+    .imgRacesAlliance,
+    .imgRacesHorde {
+        width: 90%;
+        height: 90%;
+    }
+}
+@media screen and (max-width: 411px) {
+    #racesSection1 h1 {
+        font-size: 3.5rem;
+    }
+    p {
+        font-size: 1rem;
+    }
+    .imgRacesAlliance,
+    .imgRacesHorde {
+        width: 75%;
+        height: 90%;
+    }
 }
